@@ -15,7 +15,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <div className="navbar-nav ml-auto text-uppercase">            
               <NavLink exact to="/" className="nav-item nav-link" data-toggle="collapse" data-target="#navbarNav.show">Home</NavLink>                     
-              <NavLink to="/movie" className="nav-item nav-link" data-toggle="collapse" data-target="#navbarNav.show">Movies</NavLink>       
+              <NavLink to="/Moviestore" className="nav-item nav-link" data-toggle="collapse" data-target="#navbarNav.show">Movies</NavLink>       
               <NavLink to="/products" className="nav-item nav-link" data-toggle="collapse" data-target="#navbarNav.show">Products</NavLink>
               <NavLink to="/admin" className="nav-item nav-link" data-toggle="collapse" data-target="#navbarNav.show">Admin</NavLink>
               <NavLink to="/posts/2018/06" className="nav-item nav-link" data-toggle="collapse" data-target="#navbarNav.show">Posts</NavLink>

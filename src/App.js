@@ -23,7 +23,7 @@ function App() {
       <Switch>
         <Route path="/register" component={Register} />
         <Route path="/login" component={LoginForm} />
-        <Route path="/movies/:id" component={MovieForm} />
+        <Route path="/Moviestore/:id" component={MovieForm} />
         <Route path="/products/:id/:name" component={ProductDetails} />
         <Route path="/admin" component={Dashboard} />
         <Route path="/products" render={(props) => <Products SortBy="latest" {...props} />}/>
