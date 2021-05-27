@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Joi from 'joi-browser';
 import Form from '../../Router Component/commonRoute/form';
-import { getMovie, saveMovie } from './../../services/fakeMovieService3';
+import { getMovie, saveMovie } from './../../services/fakeMovieService';
 import { getGenres } from './../../services/fakeGenersServices';
 class MovieForm extends Form {
     state = { 

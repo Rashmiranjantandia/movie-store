@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-// import { getMovies } from './../services/fakeMovieService4';
 import StarRating from './common/starRating';
 import LikeSymbol from './common/likesymbol';
 class MovieCard extends Component {
-    // state = {
-    //     movies: getMovies()
-    // }
     render() {
         const {movies, onLike, onDelete} = this.props
         return (

@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-// import { getMovies } from '../services/fakeMovieService3';
 import { getGenres } from '../services/fakeGenersServices';
 import Pagination from './pagination';
 import { Paginate } from './utilis/paginate';
 import ListGroup from './common/listGroup';
 import _ from 'lodash';
-// import { filter } from 'lodash';
-// import MovieTable from './movieTable';
+import bgimage from './../image/bg-movies.png'
 import { Link } from 'react-router-dom';
 import SearchBox from './common/searchBox';
 import MovieCard from './movieCard';
-import { getMovies } from './../services/fakeMovieService4';
+import { getMovies } from './../services/fakeMovieService';
 
-// import UniqueId from 'react-html-id';
-// import { genres } from './../services/fakeGenersServices';
 class Movies extends Component {
 
     state = {
@@ -119,7 +115,7 @@ class Movies extends Component {
 
         if (count === 0) {
             return <div className="container-fluid">
-                <center><img className="mt-5" src="bg-movies.png" width="150px" height="150px" alt="Not-Available" /></center>
+                <center><img className="mt-5" src= {bgimage} width="150px" height="150px" alt="Not-Available" /></center>
                 <h2 className="NoMoviesHeading text-danger text-center">No Movies in Database</h2>
             </div>
         }
@@ -159,7 +155,7 @@ const { totalCount, data: movies } = getPagedData();
 
                     <div className="row">
                         <div className="col-md-3">
-                            <img src="bg-movies.png" width="100px" height="100px" className="m-3" alt="Not-Available" />
+                            <img src={bgimage} width="100px" height="100px" className="m-3" alt="not-available" />
                         </div>
                         <div className="col-md-9">
                             <div className="row">
