@@ -1,0 +1,135 @@
+body{
+  overflow-x: hidden !important;
+  background-color: rgb(6,44,43) !important;
+  color: #fff !important;
+}
+/* rgb(6,44,43) */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar.jsx */
+
+.nav-link.active{
+  font-weight: bold;
+  border-bottom: 1px solid rgb(10, 49, 2) !important;
+}
+
+
+/* Movie.jsx */
+
+.moviesTable{
+  border-radius: 10px;
+  /* border: 0.5px solid rgb(103, 105, 104); */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff !important;
+}
+.moviesTable thead tr th{
+  border: none !important;
+}
+.moviesTable thead th{
+  border-bottom: none !important;
+}
+.moviesTable tr{
+  border: none;
+}
+.NoMoviesHeading{
+  margin-top: 6rem !important;
+  color: white !important;
+  text-shadow: 2px 2px 4px #c00707;
+}
+/* text-shadow: 1px 2px; */
+/* background-color: rgb(62, 179, 153); */
+/* .moviesTable td{
+  width: 200px;
+} */
+
+/* Pagination.jsx */
+.pagination li{
+  background-color: rgb(233, 24, 24);
+}
+.pagination .active a{
+  background-color: rgb(20, 42, 77) !important;
+  color: #ffff;
+  border: none;
+}
+.pagination a:hover{
+  background-color: rgb(28, 68, 133) !important;
+  color: #fff !important;
+}
+.likeSymbol{
+  color: #ffff;
+}
+
+/* ListGroup */
+/* .list-group-item{
+  color: rgb(0, 0, 0);
+} */
+.filter{
+  /* border-radius: 10px; */
+  background-color: rgb(6,44,43) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #ffff;
+}
+
+.moviesTable tr:hover{
+  background-color: rgb(18, 63, 61) !important;
+}
+.filter-group li:hover{
+  background-color: rgb(24, 77, 75) !important;
+}
+
+/* form */
+/* .form-control{
+  background-color: #434442 !important;
+} */
+
+
+/* movie card */
+/* .card-img{
+  height: 160px !important;
+  width: fit-content;
+} */
+
+/* Star Rating */
+.starInput input[type="radio"] {
+  display: none;
+}
+.star{
+  margin-right: 5px;
+}
