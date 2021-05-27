@@ -1,26 +1,38 @@
 {
   "files": {
     "main.css": "/Moviestore/static/css/main.771f2b6e.chunk.css",
-    "main.js": "/Moviestore/static/js/main.e8f6225a.chunk.js",
-    "main.js.map": "/Moviestore/static/js/main.e8f6225a.chunk.js.map",
+    "main.js": "/Moviestore/static/js/main.586ecd90.chunk.js",
+    "main.js.map": "/Moviestore/static/js/main.586ecd90.chunk.js.map",
     "runtime-main.js": "/Moviestore/static/js/runtime-main.23d88503.js",
     "runtime-main.js.map": "/Moviestore/static/js/runtime-main.23d88503.js.map",
     "static/css/2.46a59c00.chunk.css": "/Moviestore/static/css/2.46a59c00.chunk.css",
-    "static/js/2.86d9dc46.chunk.js": "/Moviestore/static/js/2.86d9dc46.chunk.js",
-    "static/js/2.86d9dc46.chunk.js.map": "/Moviestore/static/js/2.86d9dc46.chunk.js.map",
+    "static/js/2.bac7d5e0.chunk.js": "/Moviestore/static/js/2.bac7d5e0.chunk.js",
+    "static/js/2.bac7d5e0.chunk.js.map": "/Moviestore/static/js/2.bac7d5e0.chunk.js.map",
     "static/js/3.6e46daba.chunk.js": "/Moviestore/static/js/3.6e46daba.chunk.js",
     "static/js/3.6e46daba.chunk.js.map": "/Moviestore/static/js/3.6e46daba.chunk.js.map",
     "index.html": "/Moviestore/index.html",
     "static/css/2.46a59c00.chunk.css.map": "/Moviestore/static/css/2.46a59c00.chunk.css.map",
     "static/css/main.771f2b6e.chunk.css.map": "/Moviestore/static/css/main.771f2b6e.chunk.css.map",
-    "static/js/2.86d9dc46.chunk.js.LICENSE.txt": "/Moviestore/static/js/2.86d9dc46.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.css": "/Moviestore/static/media/fontawesome-webfont.f691f37e.woff"
+    "static/js/2.bac7d5e0.chunk.js.LICENSE.txt": "/Moviestore/static/js/2.bac7d5e0.chunk.js.LICENSE.txt",
+    "static/media/13_hours.ec333605.jpg": "/Moviestore/static/media/13_hours.ec333605.jpg",
+    "static/media/BOP.ffbf7897.jpg": "/Moviestore/static/media/BOP.ffbf7897.jpg",
+    "static/media/Tom_Jerry.48131731.jpg": "/Moviestore/static/media/Tom_Jerry.48131731.jpg",
+    "static/media/airplane.77c01de7.jpg": "/Moviestore/static/media/airplane.77c01de7.jpg",
+    "static/media/bg-movies.4f58bac1.png": "/Moviestore/static/media/bg-movies.4f58bac1.png",
+    "static/media/dunkirk.2faceff7.jpg": "/Moviestore/static/media/dunkirk.2faceff7.jpg",
+    "static/media/font-awesome.css": "/Moviestore/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/joker.3bcdb2eb.jpg": "/Moviestore/static/media/joker.3bcdb2eb.jpg",
+    "static/media/monster_hunter.9e242d28.jpg": "/Moviestore/static/media/monster_hunter.9e242d28.jpg",
+    "static/media/witches.00501617.jpg": "/Moviestore/static/media/witches.00501617.jpg",
+    "static/media/wrong_turn.8f065b6a.jpg": "/Moviestore/static/media/wrong_turn.8f065b6a.jpg",
+    "static/media/ww84.6b5a885f.jpg": "/Moviestore/static/media/ww84.6b5a885f.jpg",
+    "static/media/zombieland.11d86dca.jpg": "/Moviestore/static/media/zombieland.11d86dca.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.23d88503.js",
     "static/css/2.46a59c00.chunk.css",
-    "static/js/2.86d9dc46.chunk.js",
+    "static/js/2.bac7d5e0.chunk.js",
     "static/css/main.771f2b6e.chunk.css",
-    "static/js/main.e8f6225a.chunk.js"
+    "static/js/main.586ecd90.chunk.js"
   ]
 }
