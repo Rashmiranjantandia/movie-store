@@ -28,7 +28,7 @@ function App() {
         <Route path="/admin" component={Dashboard} />
         <Route path="/products" render={(props) => <Products SortBy="latest" {...props} />}/>
         <Route path="/posts/:year?/:month?" component={Posts} />
-        <Route path="/movie" component={Movie} />
+        <Route path="/Moviestore" component={Movie} />
         <Route path="/" exact component={Home} />
         <Route path="/notFound" exact component={NotFound} />
         <Redirect to="/notFound" />
