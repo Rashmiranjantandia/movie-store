@@ -160,7 +160,7 @@ const { totalCount, data: movies } = getPagedData();
                         <div className="col-md-9">
                             <div className="row">
                                 <div className="col-md-3 col-4 d-flex align-items-end mb-3">
-                                    <Link to="/movies/new"
+                                    <Link to="/Moviestore/new"
                                     className="btn btn-primary">
                                         New Movie
                                     </Link>
