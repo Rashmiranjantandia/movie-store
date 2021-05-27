@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Joi from 'joi-browser';
 import Form from './commonRoute/form';
+import bgimage from './../image/bg-movies.png'
 class LoginForm extends Form {
     state = {
         data: { username: "", password: "" },
@@ -33,7 +34,7 @@ class LoginForm extends Form {
             <div className="d-flex justify-content-center">
                 <div className="row border rounded p-5 m-3">
                     <div className="col">
-                        <img className="ml-5 mb-4 rounded" src="bg-movies.png" width="80px" height="80px" alt="Not-Available" />
+                        <img className="ml-5 mb-4 rounded" src={bgimage} width="80px" height="80px" alt="Not-Available" />
                         <form onSubmit={this.handleSubmit}>
                         {this.renderInput("username", "Username","Enter Username")}
                             {this.renderInput("password", "Password","Enter Password","password")}
