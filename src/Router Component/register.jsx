@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Form from './commonRoute/form'
 import Joi from 'joi-browser';
+import bgimage from './../image/bg-movies.png'
 class Register extends Form {
     state = {
         data: { username: "", password: "", name: "" },
